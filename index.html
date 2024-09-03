@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./image/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styleSheet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" 
+    />
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./image/library_icon.png" alt="">
+                        <a href="#">Your Library</a>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <p class="box-p-1">Create your first playlist</p>
+                        <p class="box-p-2"> It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p-1">Let's find some podcasts to follow</p>
+                        <p class="box-p-2"> We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-navbar">
+                <div class="sticky-nav-icons">
+                    <img src="./image/backward_icon.png" alt="">
+                    <img src="./image/forward_icon.png" class="hide" alt="">
+                </div>
+               <div class="sticky-nav-option">
+                    <button class="badge sticky-nav-option-btn hide ">Explore Premium</button>
+                    <button class="badge dark-badge sticky-nav-option-btn ">
+                        <i class="fa-solid fa-circle-down" style="margin-right: 5px;"></i>
+                        Install App
+                    </button>
+                    <i class="fa-regular fa-user sticky-nav-option-btn"></i>
+               </div>
+               
+            </div>
+            <div class="cards">
+                <h2>To Get You Started</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./image/top-started-picture1.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/top-started-picture2.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/top-started-picture3.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                </div>
+                <h2>Recommended for today </h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./image/songpicture1.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/songpicture2.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/songpicture3.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/songpicture4.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/songpicture5.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    
+                </div>
+                <h2>Today's biggest hits</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./image/todayshits1.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/todayshits2.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/todayshits3.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/todayshits4.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/todayshits5.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                   
+                    <h2>Shows to try</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./image/storypicture.png" class="card-img" alt="">
+                            <p class="card-title">To get started with</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/storypicture7.png" class="card-img" alt="">
+                            <p class="card-title">To get started with</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/storypicture8.png" class="card-img" alt="">
+                            <p class="card-title">To get started with</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/storypicture9.png" class="card-img" alt="">
+                            <p class="card-title">To get started with</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./image/storypicture10.png" class="card-img" alt="">
+                            <p class="card-title">To get started with</p>
+                            <p class="card-info">Your daily updates of the most played...</p>
+                        </div>
+                    
+                    </div>
+                </div>
+                <h2>Throwback</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./image/throwbacksongpicture1.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/throwbacksongpicture2.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/throwbacksongpicture3.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/throwbacksongpicture4.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./image/throwbacksongpicture5.png" class="card-img" alt="">
+                        <p class="card-title">To get started with</p>
+                        <p class="card-info">Your daily updates of the most played...</p>
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+        <div class="music-player">
+            <div class="album">
+                <img src="./image/songpicture4.png" style="height: 3.5rem; width: 3.5rem; margin-left: 0.6rem;" alt="">
+                <p class="album-para">
+                    <a href="#" class="para-head " style="overflow-anchor: hidden;">One Two Three Four(Get On The Dance Floor).....</a>
+                    <br>
+                    <span style="line-height: 1.5rem;">Vishal Dadlani,Hamsika Iyer</span>
+                </p>
+                <span class="material-symbols-outlined circle-plus">
+                    add_circle
+                </span>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./image/player_icon1.png" class="player-control-icons" alt="">
+                    <img src="./image/player_icon2.png" class="player-control-icons" alt="">
+                    <img src="./image/player_icon3.png" class="player-control-icons" style="opacity: 1;height: 2rem;"  alt="">
+                    <img src="./image/player_icon4.png" class="player-control-icons" alt="">
+                    <img src="./image/player_icon5.png" class="player-control-icons" alt="">
+                </div>
+                <div class="player-progress-bar">
+                    <span>00:00</span>
+                    <input type="range" class="progress-bar1" min="0" max="100">
+                    <span>3:33</span>
+                </div>
+            </div>
+            <div class="music-player-controls">
+                <div class=" music-player-div1">
+                    <img src="./image/playbarImage/controls_icon1.png" class=" play-bar-control-items" style="height: 2rem;" alt="">
+                    <img src="./image/playbarImage/controld_icon2.png" class="play-bar-control-items" style="height: 2rem;" alt="">
+                    <img src="./image/playbarImage/controls_icon3.png" class="play-bar-control-items" alt="">
+                    <img src="./image/playbarImage/controls_icon4.png" class="play-bar-control-items" alt="">
+                    <img src="./image/playbarImage/controls_icon5.png" class="play-bar-control-items" style="height: 2rem;" alt="">
+                </div>
+                <div class="music-player-div2">
+                      <input type="range" class="progress-bar1 progress-bar2" min="0" max="100">
+                </div>
+              
+                <div class="music-player-div3">  
+                     <img src="./image/playbarImage/album_icon2 (1).png" class="play-bar-control-items" style="height: 2rem;" alt="">
+                    <i class="fa-solid fa-up-right-and-down-left-from-center play-bar-control-items "></i>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
